@@ -1,9 +1,10 @@
 import React from 'react';
-import {NavbarPropsType} from "../ComponentsType";
+import st from './SideBar.module.css'
+import {SideBarPropsType} from "../ComponentsType";
 
-export const Navbar = (props: NavbarPropsType) => {
+export const SideBar = (props: SideBarPropsType) => {
     return (
-        <div className={props.className}>
+        <div className={st.sidebar}>
             <li>Profile</li>
             <li>News</li>
             <li>Messages</li>

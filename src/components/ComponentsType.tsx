@@ -1,9 +1,9 @@
 export type HeaderPropsType = {
-    className: string
+
 }
-export type NavbarPropsType = {
-    className: string
+export type SideBarPropsType = {
+
 }
-export type ContentPropsType = {
-    className: string
+export type PageBodyPropsType = {
+
 }
