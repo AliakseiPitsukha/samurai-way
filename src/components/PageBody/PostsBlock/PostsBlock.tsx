@@ -8,7 +8,8 @@ export const PostsBlock = () => {
                 <textarea></textarea>
                 <button>Add Post</button>
             </>
-            <Post/>
+            <Post message={'bla bla bla'} likesCount={14}/>
+            <Post message={'aklsdjhflkajshd'} likesCount={165}/>
         </div>
     );
 };
