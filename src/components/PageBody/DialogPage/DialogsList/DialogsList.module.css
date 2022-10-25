@@ -1,0 +1,17 @@
+.dialogItems {
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.item {
+    color: gray;
+    font-weight: bold;
+}
+
+.active {
+    color: firebrick;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
