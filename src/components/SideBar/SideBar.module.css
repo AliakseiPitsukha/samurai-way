@@ -7,5 +7,12 @@
     margin-left: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.sidebarLink a {
     color: floralwhite;
+    text-decoration: none;
+}
+
+.sidebarLink a.active {
+    color: gold;
 }
