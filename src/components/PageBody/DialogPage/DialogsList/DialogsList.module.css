@@ -4,12 +4,14 @@
     border-radius: 10px;
 }
 
-.item {
+.item a {
     color: gray;
-    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
 }
 
-.active {
+.item a.active {
     color: firebrick;
     font-weight: bold;
     font-style: italic;

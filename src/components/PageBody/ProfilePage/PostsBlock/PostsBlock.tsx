@@ -5,8 +5,12 @@ export const PostsBlock = () => {
     return (
         <div>
             <>
-                <textarea></textarea>
-                <button>Add Post</button>
+                <div>
+                    <textarea></textarea>
+                </div>
+                <div>
+                    <button>Add Post</button>
+                </div>
             </>
             <Post message={'bla bla bla'} likesCount={14}/>
             <Post message={'aklsdjhflkajshd'} likesCount={165}/>
