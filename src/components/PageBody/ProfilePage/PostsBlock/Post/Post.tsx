@@ -1,6 +1,6 @@
 import React from 'react';
 import st from './Post.module.css'
-import {PostPropsType} from "../../../ComponentsType";
+import {PostPropsType} from "../../../../ComponentsType";
 
 export const Post = (props: PostPropsType) => {
     return (

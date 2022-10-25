@@ -4,7 +4,7 @@ export type HeaderPropsType = {
 export type SideBarPropsType = {
 
 }
-export type PageBodyPropsType = {
+export type ProfilePagePropsType = {
 
 }
 export type PostPropsType = {
