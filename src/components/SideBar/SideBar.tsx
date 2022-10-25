@@ -4,12 +4,22 @@ import {SideBarPropsType} from "../ComponentsType";
 
 export const SideBar = (props: SideBarPropsType) => {
     return (
-        <div className={st.sidebar}>
-            <li>Profile</li>
-            <li>News</li>
-            <li>Messages</li>
-            <li>Music</li>
-            <li>Settings</li>
-        </div>
+        <nav className={st.sidebar}>
+            <div className={st.sidebarLink}>
+                <a href='/profile'>Profile</a>
+            </div>
+            <div className={st.sidebarLink}>
+                <a href='/dialogs'>Messages</a>
+            </div>
+            <div className={st.sidebarLink}>
+                <a href='/news'>News</a>
+            </div>
+            <div className={st.sidebarLink}>
+                <a href='/music'>Music</a>
+            </div>
+            <div className={st.sidebarLink}>
+                <a href='/settings'>Settings</a>
+            </div>
+        </nav>
     );
 };
