@@ -1,9 +1,8 @@
 import React from 'react';
-import st from './SideBar.module.css'
-import {SideBarPropsType} from "../ComponentsType";
+import st from './SideBar.module.css';
 import {NavLink} from "react-router-dom";
 
-export const SideBar = (props: SideBarPropsType) => {
+export const SideBar = () => {
     return (
         <nav className={st.sidebar}>
             <div className={st.sidebarLink}>

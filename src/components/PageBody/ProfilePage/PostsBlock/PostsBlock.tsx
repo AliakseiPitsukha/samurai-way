@@ -1,7 +1,8 @@
 import React from 'react';
 import {Post} from "./Post/Post";
+import {PostsDataType} from "../../../ComponentsTypes";
 
-export const PostsBlock = () => {
+export const PostsBlock:React.FC<PostsDataType> = (props) => {
     return (
         <div>
             <>
@@ -12,8 +13,8 @@ export const PostsBlock = () => {
                     <button>Add Post</button>
                 </div>
             </>
-            <Post message={'bla bla bla'} likesCount={14}/>
-            <Post message={'aklsdjhflkajshd'} likesCount={165}/>
+            {props.postsData.map( (post) =>
+                <Post message={post.message} likesCount={post.likesCount}/>)}
         </div>
     );
 };
